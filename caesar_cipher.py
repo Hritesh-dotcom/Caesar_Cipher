@@ -9,6 +9,7 @@ def encrypt():
 
     text_to_encrypt = input("Enter the text you want to ENCRYPT:")
     print()
+    # enter by how many places you want to shift     
     key = int(input("Enter the encryption key: "))
     
     encrypted_message = ""
